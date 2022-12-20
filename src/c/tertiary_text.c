@@ -19,8 +19,6 @@ static TextLayer* buttons2[3];
 static TextLayer* buttons3[3];
 static TextLayer** bbuttons[3];
 
-static InverterLayer* inverter_side;
-
 static bool menu = false;
 
 // Here are the three cases, or sets
@@ -308,9 +306,6 @@ static void initSidesAndText()
         for( int j=0; j<3; j++ )
             layer_add_child( window_layer, text_layer_get_layer( bbuttons[i][j] ) );
     
-		// Side inverter
-		inverter_side = inverter_layer_create( GRect( 110, 0, 34, 169 ) );
-		layer_add_child( window_layer, inverter_layer_get_layer( inverter_side ) );
 }
 
 static void drawNotepadText()
@@ -324,7 +319,6 @@ static void window_unload(Window *window)
 	text_layer_destroy(text_input);
 	text_layer_destroy(text_title);
 	
-	inverter_layer_destroy( inverter_side );
 
     for( int i=0; i<3; i++ )
         for( int j=0; j<3; j++ )

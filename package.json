@@ -1,0 +1,29 @@
+{
+  "name": "tertiary_text",
+  "author": "VGMoose",
+  "version": "2.1.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "tertiary_text",
+    "uuid": "50f184ab-8841-4070-8c01-33161085c2a7",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}

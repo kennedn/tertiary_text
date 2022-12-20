@@ -1,5 +1,7 @@
 # Tertiary Text
 
+> Updated to work with SDK 4.0
+
 ### Simple Texting from your Wrist!
 Type using your Pebble! Tertiary text presents a solution for a quick and efficient method of entering text using only the Pebble itself. By fully utilizing the three buttons and narrowing down the selection each time, it is possible to hit all twenty-six characters of the alphabet in three button strokes. It looks a little clunky at first, but in almost no time the letters become muscle memory and your speed greatly improves.
 
